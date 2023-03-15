@@ -22,6 +22,7 @@ cc_defaults {
     ],
     cflags: [
         "-Oz",
+        "-Wno-unreachable-code-loop-increment",
         "-Wno-unused-parameter",
     ],
     rtti: true,
@@ -34,6 +35,7 @@ cc_defaults {
     ],
     cflags: [
         "-Oz",
+        "-Wno-unreachable-code-loop-increment",
         "-Wno-unused-parameter",
     ],
     rtti: true,
